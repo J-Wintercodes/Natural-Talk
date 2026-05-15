@@ -1,14 +1,23 @@
 [
     {
         "title": "Einleitung",
-        "hint": "langsam"
+        "belege": [
+            "25"
+        ],
+        "hint": "Warte auf Analyse..."
     },
     {
         "title": "Umsatzwachstum",
-        "hint": "Diagramm erklären"
+        "belege": [
+            "22"
+        ],
+        "hint": "Warte auf Analyse..."
     },
     {
         "title": "Fazit",
-        "hint": "weniger ähm"
+        "belege": [
+            "3"
+        ],
+        "hint": "Warte auf Analyse..."
     }
 ]

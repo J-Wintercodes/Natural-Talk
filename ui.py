@@ -25,7 +25,7 @@ class Basisanzeige:
         scrollbar = ttk.Scrollbar(self.main_container, orient="vertical", command=canvas.yview)
         scroll_frame = tk.Frame(canvas)
 
-        scroll_frame.bind("<Configure>", lambda e: canvas.configure(scroll_region=canvas.bbox("all")))
+        scroll_frame.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
         canvas.create_window((0, 0), window=scroll_frame, anchor="nw")
         canvas.configure(yscrollcommand=scrollbar.set)
 
